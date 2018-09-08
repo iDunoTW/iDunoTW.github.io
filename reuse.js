@@ -16,7 +16,7 @@ function getScriptInfoTBody(){
 
 function isOverviewPage(){
     let url = window.location.href;
-    if(url.endsWith("screen=overview")){
+    if(url.endsWith("screen=overview") || url.endsWith("overview&intro")){
        return true;
     }else{
        return false;
